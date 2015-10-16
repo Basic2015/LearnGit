@@ -1,0 +1,4 @@
+在res\values\string.xml 中查找Toast或者文本的提示信息
+Android 程序中,所有的字符串资源都在gen/<packagename>/R.java，每个字符串都有唯一的int类型索引值
+,所有的索引值都保存在string.xml 文件同目录下的public.xml文件中
+gen/<packname>/R.java --> res\values\string.xml --> public.xml
